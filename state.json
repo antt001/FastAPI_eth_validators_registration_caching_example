@@ -1,0 +1,49 @@
+{
+    "validators": [
+        {
+            "id": 0,
+            "address": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+            "operators": [101, 102, 103, 104]
+        },
+        {
+            "id": 1,
+            "address": "0xde0b295669a9fd93d5f28d9ec85e40f4cb697bae",
+            "operators": [102, 105, 106, 107]
+        },
+        {
+            "id": 2,
+            "address": "0x999c49fE1c1FC19292e9895d877BB8715040A609",
+            "operators": [101, 102, 103, 107]
+        }
+    ],
+    "operators:": [
+        {
+            "id": 101,
+            "validators": [0, 2]
+        },
+        {
+            "id": 102,
+            "validators": [0, 1, 2]
+        },
+        {
+            "id": 103,
+            "validators": [0, 2]
+        },
+        {
+            "id": 104,
+            "validators": [0]
+        },
+        {
+            "id": 105,
+            "validators": [1]
+        },
+        {
+            "id": 106,
+            "validators": [1]
+        },
+        {
+            "id": 107,
+            "validators": [1,2]
+        }
+    ]
+}
